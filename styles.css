@@ -1,6 +1,5 @@
 *{
-    /*outline: 2px solid red;*/
-    background-image: url();
+    /* outline: 2px solid red; */
 }
 
 html{
@@ -10,17 +9,35 @@ html{
 body{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-image: url(recipes/images/mead-hall.jpg);
+    background-size: cover;
 }
 
-.content li{
-    font-size: 40px;
-    margin-bottom: 2em;
+div button{
+    display: inline-block;
+    font-size: 19px;
+    text-align: top;
+    color: azure;
+    width: 200px;
+    height: 320px;
+    margin: 30px 30px;
+    background-color: black;
+    border-radius: 5%;
+}
+
+a.button{
+}
+
+button:hover {
+    background-color: rgb(126, 18, 18);
+    color: white;
 }
 
 .mainhead{
     font-size: 200px;
     margin: auto;
-    margin-top: 380px;
+    margin-top: 170px;
     height: 500Spx;
     width: 1500px;
     padding: 40px;
