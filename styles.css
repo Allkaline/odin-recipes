@@ -1,0 +1,27 @@
+*{
+    /*outline: 2px solid red;*/
+    background-image: url();
+}
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content li{
+    font-size: 40px;
+    margin-bottom: 2em;
+}
+
+.mainhead{
+    font-size: 200px;
+    margin: auto;
+    margin-top: 380px;
+    height: 500Spx;
+    width: 1500px;
+    padding: 40px;
+}
